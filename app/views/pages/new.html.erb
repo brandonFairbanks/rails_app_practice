@@ -1,0 +1,17 @@
+<h1>Creat New Page</h1>
+<%= form_for @page do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <br>
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+    <br>
+    <%= f.label :body %>
+    <%= f.text_field :body %>
+    <br>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <br>
+    <%= f.submit %>
+<% end %>
+
